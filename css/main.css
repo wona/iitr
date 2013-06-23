@@ -345,7 +345,8 @@ span.bold {
     margin: auto;
     padding-top: 50px;
     font-family: Garamond, Georgia, Sans serif;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    text-align: justify; }
     .mannat article h2 {
       font-size: 1.5em;
       font-weight: bold;
@@ -376,7 +377,8 @@ span.bold {
     margin: auto;
     padding-top: 25px;
     font-family: Garamond, Georgia, Sans serif;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    text-align: justify; }
     .abhijeet article h2 {
       font-size: 1.5em;
       font-weight: bold;
