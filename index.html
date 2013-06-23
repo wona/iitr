@@ -31,13 +31,24 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-        
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <section class="home">
             <div class="keep">
                 <img src="img/keepcalm.png" alt="" style="width: 200px;">
             </div>
             <div class="main-building">
                 <img src="img/building.png" alt="">
+            </div>
+            <div class="like">
+                <div class="fb-like" data-href="http://iitr.wona.co.in/" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial">
+                </div>
             </div>
         </section>
         <section class="vitamin" id="vitamin">
