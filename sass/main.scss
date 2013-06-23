@@ -1,0 +1,536 @@
+
+/* CSS RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('opensans'), local('opensans'), url(../fonts/opensans.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/lato-regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(../fonts/lato-bold.woff) format('woff');
+}
+
+body {
+    background-color: #F9EFD8;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: Open Sans, Droid Sans, Ubuntu, Garamond, Verdana, Sans-serif;
+    font-size: 14px;
+}
+
+section {
+    min-height: 600px;
+}
+
+.home {
+    position: relative;
+    text-align: center;
+    
+    .main-building {
+        position: absolute;
+        bottom: 0;
+        img {
+            width: 100%;
+        }
+    }
+
+
+    .nav {
+        position: relative;
+        margin-bottom: 0px;
+
+        .links {
+            position: relative;
+            
+            .facts {
+                top: 52px;
+                left: 44px;
+            }
+            .articles {
+                top: 52px;
+                left: 125px;
+            }
+            .alumni {
+                top: 52px;
+                left: 308px;
+            }
+            .history {
+                top: 52px;
+                left: 400px
+            }
+
+            .item {
+                position: absolute;
+                color: white;
+            }
+        }
+    }
+}
+
+.vitamin {
+    background-color: #82B1B1;
+}
+
+.railways {
+    background-color: #F4FBF3;
+    font-size: 14px;
+    .mangu {
+        width: 1000px;
+        padding: 30px;
+        border: 3px solid #8D969D;
+        border-radius: 20px;
+        margin: 0px auto;
+        .profile {
+            float: left;
+            padding-right: 10px;
+            padding-top: 15px;
+        }
+        .details {
+            .name{
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    span.name {
+        font-weight: 700;
+    }
+    .pande {
+        width: 1000px;
+        padding: 30px;
+        border: 3px solid #8D969D;
+        border-radius: 20px;
+        margin: 0px auto;
+        background-color: #8D969D;
+        color: white;
+        .profile {
+            float: right;
+            padding-left: 10px;
+            margin-top: -20px;
+        }
+        .details {
+            text-align: right;
+            .name{
+                padding-bottom: 20px;
+                text-align: right;
+            }
+        }
+    }
+
+    .chairmen {
+        width: 1000px;
+        padding: 30px;
+        border: 3px solid #8D969D;
+        border-radius: 20px;
+        margin: 0px auto;
+        line-height: 1.3em;
+        h2 {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        p {
+            padding: 10px 0px 0px 0px;
+        }
+        img {
+            float: right;
+        }
+    }
+
+    span.name {
+        font-weight: 700;
+    }
+
+    .vertical-line {
+        width: 900px;
+        padding: 30px;
+        border-left: 3px solid #8D969D;
+        border-right: 3px solid #8D969D;
+        border-radius: 0px;
+        margin: 0px auto;
+    }
+
+    span.year {
+        font-size: 0.9em;
+        padding-left: 5px;
+    }
+}
+
+.singhal {
+    background-color: #E4E4E4;
+    .profile {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .main {
+        line-height: 1.2em;
+        color: #4c4c4c;
+        width: 1000px;
+        margin: auto;
+        padding-top: 40px;
+        .left {
+            background: white;
+            width: 500px;
+            padding: 30px 15px;
+            border-top: 7px solid #e01a30;
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+        .right {
+            float: right;
+            background: white;
+            width: 400px;
+            padding: 30px 15px;
+            border-top: 7px solid #faff00;
+        h2 {
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.rakesh {
+    background-color: #180352;
+    .profile {
+        float: right;
+        padding: 45px 60px 60px 0px;
+    }
+    .tile {
+        margin: auto auto;
+        width: 883px;
+    }
+}
+
+.indicator {
+    text-align: left;
+    img {
+        height: auto;
+    }
+}
+
+.cogni {
+    background-color: #0D8B78;
+    text-align: center;
+    color: white;
+    .real {
+        font-size: 1.5em;
+    }
+    .head {
+        padding: 40px 0px 25px 0px;
+    }
+    .fake {
+        line-height: 1.5em;
+        font-size: 1.5em;
+        width: 825px;
+        margin: 30px auto;
+        .leftq{
+            float: left;
+        }
+        .rightq{
+            float: right;
+            padding-top: 65px;;
+        }
+        .fake-text{
+            padding-top: 55px;
+        }
+    }
+    .ribbon {
+        width: 800px;
+        margin: auto;
+        padding-top: 110px;
+        .eleft {
+            float: left;
+        }
+        .eright {
+            float: right;
+        }
+        div {
+            padding-top: 20px;
+            background-color: #DA3432;
+            width: 690px;
+            margin-left: 54px;
+            height: 33px;
+        }
+    }
+}
+
+.cat {
+    background-color: #F2EFEA;
+    .logo {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .iim {
+        float: left;
+        margin-left: 100px;
+    }
+    .bar {
+        background-color: #1D1E1B;
+        width: 30px;
+    }
+    .a .bar {
+        height: 200px;
+    }
+    .b .bar {
+        height: 125px;
+    }
+    .c .bar {
+        height: 200px;
+    }
+    .l .bar {
+        height: 100px;
+    }
+    .name {
+        font-family: Georgia, Baskerville Old Face, Sans Serif;
+        padding-top: 5px;
+        width: 30px;
+        text-align: center;
+        padding-bottom: 5px;
+        height: 20px;
+    }
+    .chart {
+        width: 600px;
+        margin: auto;
+        padding-top: 100px;
+    }
+}
+
+.placement {
+    background-color: white;
+    div  {
+        text-align: center;
+        img {
+            height: 100%;
+            margin-top: -30px;
+        }
+    }
+}
+
+.jaypee {
+    background-color: #27AAE1;
+    color: #333333;
+    position: relative;
+    .header {
+        width: 500px;
+        margin: auto;
+        padding-top: 80px;
+        img {
+            width: 150px;
+            float: left;
+            padding-right: 20px;
+        }
+        div {
+            padding-top: 5px;
+            h2 {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+        }
+    }
+    .details {
+        clear: both;
+        text-align: center;
+        padding-top: 100px;
+        p {
+            font-size: 1.2em;
+            padding-top: 10px;
+        }
+    }
+    .car {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+        .inner {
+            position: relative;
+            width: 690px;
+            margin: auto;
+        }
+    }
+}
+
+.ironman {
+    background-color: #f9ec1c;
+    div  {
+        text-align: center;
+        img {
+            padding-top: 25px;
+            width: 964px;;
+        }
+    }
+}
+
+.mannat {
+    background-color: white;
+    .logo {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    article {
+        -moz-column-count: 2;
+        -moz-column-gap: 50px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 50px;
+        width: 1000px;
+        margin: auto;
+        padding-top: 50px;
+        font-family: Garamond, Georgia, Sans serif;
+        line-height: 1.4em;
+        h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+    }
+    .line {
+        background-color: #d4583c;
+        height: 3px;
+        width: 1000px;
+        margin: auto
+    }
+    .dots {
+        width: 1000px;
+        margin: auto;
+        img {
+            float: right;
+        }
+    }
+}
+
+.abhijeet {
+    background-color: #CACCC9;
+    min-height: 680px;
+    .logo {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    article {
+        -moz-column-count: 2;
+        -moz-column-gap: 50px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 25px;
+        width: 1000px;
+        margin: auto;
+        padding-top: 25px;
+        font-family: Garamond, Georgia, Sans serif;
+        line-height: 1.4em;
+        h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+    }
+    .line {
+        background-color: #d4583c;
+        height: 3px;
+        width: 1000px;
+        margin: auto
+    }
+    .dots {
+        width: 1000px;
+        margin: auto;
+        img {
+            float: right;
+        }
+    }
+}
+
+.justice {
+    background-color: #1D5B82;
+    text-align: center;
+    position: relative;
+    h1 {
+        font-size: 2.1em;
+        color: #5BB1E4;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+    .ribbon {
+        padding-top: 100px;
+    }
+    .league {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        .inner {
+            width: 750px;
+            margin: auto; 
+        }
+    }
+}
+
+.last {
+    background-color: #2E3192;
+    text-align: center;
+    img {
+        padding-top: 50px;
+    }
+}
