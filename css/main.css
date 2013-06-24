@@ -85,6 +85,8 @@ section {
     bottom: 0; }
     .home .main-building img {
       width: 100%; }
+  .home .like {
+    margin-top: 12px; }
   .home .nav {
     position: relative;
     margin-bottom: 0px; }
