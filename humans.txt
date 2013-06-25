@@ -3,13 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Content by Team Watch Out! [http://facebook.com/WatchOutNewsAgency]
+    Design by Chetty Arun [https://www.facebook.com/chetty.arun.nani]
+    Web Dev by Shashank Mehta [http://shashankmehta.in]
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, SASS
     jQuery, Modernizr
