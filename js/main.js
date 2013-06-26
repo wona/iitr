@@ -2,7 +2,7 @@ jQuery(window).ready(function($) {
   var height = $(window).height();
   var width = $(window).width();
 
-  $('section').height(height);
+  $('section').css('min-height', height);
 
   var x = height *.5 - $('.home .nav').height();
   var y = width - 512;
